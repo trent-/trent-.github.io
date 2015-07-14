@@ -88,3 +88,5 @@ jekyll serve
 That will install a default theme. The other option you have is to grab one of the many other themes available, and customise it to suit your needs.
 
 There is a site dedicated to Jekyll themes: <http://jekyllthemes.org/> or you can browse the Jekyll wiki on GitHub: <https://github.com/jekyll/jekyll/wiki/Themes>
+
+Now, go and get blogging. You'll likely want to refer back to the Jekyll documentation: <http://jekyllrb.com/docs/home/>
