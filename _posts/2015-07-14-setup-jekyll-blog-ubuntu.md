@@ -4,11 +4,11 @@ title:  Setting up a GitHub hosted blog on Ubuntu
 date:   2015-07-14 12:41:00
 ---
 
-Well, for my first post on my GitHub, Jekyll based blog, I thought it'd be fitting to document how I got up and going on my Ubuntu box. Every repository on GitHub has the ability to host a site using the Jekyll technology so it's worth setting this environment up on your main machine so you can ensure everything is working as desired - by serving it locally as you would expect GitHub to do.
+Well, for my first post on my GitHub, Jekyll based blog, I thought it'd be fitting to document how I got up and going on my Ubuntu machine. Every repository or user on GitHub has the ability to host a site using the Jekyll technology so it's worth installing Jekyll on your machine so that you can see how your site would behave before pushing it to GitHub.
 
-The first resource I referred to was the GitHub pages guide: <https://help.github.com/articles/using-jekyll-with-pages/>
+GitHub includes a basic guide on getting set up here: <https://help.github.com/articles/using-jekyll-with-pages/>
 
-The first step in this guide is to install Ruby. This mentions that the minimum required version is 2. You will run into problems here if you are running Ubuntu 14.04 because the default Ruby is version 1.9 (note: on a later version of Ubuntu - I tested on Ubuntu 15.04 as at time of writing - the default Ruby is 2.1.2). Fortunately, version 2 of Ruby is available in the packages through the ruby2.0 package. So start by installing ruby2.0:
+The first step in this guide is to install Ruby. This mentions that the minimum required version is 2. You will run into problems here if you are running Ubuntu 14.04 (the latest LTS at the time of writing) because the default Ruby is version 1.9 (note: on a later version of Ubuntu - I tested on Ubuntu 15.04 - the default Ruby is 2.1.2). Fortunately, version 2 of Ruby is available in the packages through the ruby2.0 package. So start by installing ruby2.0:
 
 ```bash
 sudo apt-get install ruby2.0
