@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Setting up Jekyll on Ubuntu
+title:  Setting up a GitHub hosted blog on Ubuntu
 date:   2015-07-14 12:41:00
 ---
 
@@ -25,7 +25,7 @@ $ ls -Alt /usr/bin/ | grep ruby
 lrwxrwxrwx 1 root   root           9 Feb 15  2014 ruby -> ruby1.9.1
 ```
 
-So, at this point we can either update the symbolic link of `ruby` to point to `ruby2.0`. However, instead I am going to use the `update-alteratives` command to specify which ruby to point to. 
+So, at this point we can either update the symbolic link of `ruby` to point to `ruby2.0`. However, instead I am going to use the `update-alteratives` command to specify which ruby to point to.
 
 ```bash
 $ sudo update-alternatives --install /usr/bin/ruby ruby /usr/bin/ruby2.0 1
@@ -38,7 +38,7 @@ $ ruby --version
 ruby 2.0.0p384 (2014-01-12) [x86_64-linux-gnu]
 ```
 
-Looking in /usr/bin, you will also see that `gem` follows a similar pattern, so we will want to do the same for that. 
+Looking in /usr/bin, you will also see that `gem` follows a similar pattern, so we will want to do the same for that.
 
 
 ```bash
@@ -69,11 +69,11 @@ sudo apt-get install ruby2.0-dev zlib1g-dev nodejs
 ```
 
 Then you can either install by using bundler. Create a file named Gemfile in your project directory (example below) and use bundler to install all requirements that are defined with the command `bundle install`.
- 
+
 ```ruby
 source 'https://rubygems.org'
 gem 'github-pages'
-``` 
+```
 
 Or just run the command `sudo gem install github-pages`.
 
@@ -85,7 +85,6 @@ cd pathtoblog
 jekyll serve
 ```
 
-That will install a default theme. The other option you have is to grab one of the many other themes available, and customise it to suit your needs. 
+That will install a default theme. The other option you have is to grab one of the many other themes available, and customise it to suit your needs.
 
 There is a site dedicated to Jekyll themes: <http://jekyllthemes.org/> or you can browse the Jekyll wiki on GitHub: <https://github.com/jekyll/jekyll/wiki/Themes>
-
