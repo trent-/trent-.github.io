@@ -3,7 +3,7 @@ baseurl: ""
 
 date_format: "%Y-%m-%d"
 
-google_analytics:
+google_analytics: UA-65152338-2
 disqus_shortname: 
 
 # Build settings
