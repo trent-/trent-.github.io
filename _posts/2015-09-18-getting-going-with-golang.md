@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Getting going with Golang
-date:   2015-09-18 10:51:00
+date:   2015-09-18 11:41:00
 ---
 
 Lately I have been learning Go. Every so often I get put on another project, so then get distracted with something else. I'm hoping to do a series of posts on Go to try and ingrain the language in my brain a bit better.
@@ -24,7 +24,7 @@ golang:
 $ sudo apt-get install golang
 ```
 
-As you can see, the candidate version is 1.2. However golang is currently upto version 1.5. So if you want the latest features, you can grab the tarball from the downloads page[1], and then follow the steps as described on the getting started guide[2] to install it.
+As you can see, the candidate version is 1.2. However golang is currently upto version 1.5. So if you want the latest features, you can grab the tarball from the downloads page[[1](https://golang.org/dl/)], and then follow the steps as described on the getting started guide[[2](https://golang.org/doc/install)] to install it.
 
 If the installation is successful, you should be able to verify by running
 
@@ -76,5 +76,5 @@ More topics:
 * Stay tuned
 
 
-1. https://golang.org/dl/
-*  https://golang.org/doc/install
+1. [https://golang.org/dl/](https://golang.org/dl/)
+*  [https://golang.org/doc/install](https://golang.org/doc/install)
