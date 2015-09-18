@@ -34,7 +34,7 @@ go version go1.2.1 linux/amd64
 ```
 Once you have go installed you will want to set up a couple of environment variables. First, you need to set GOPATH to the location you will be placing all your go source code. For me, I have a Projects folder in my homedir, then a go folder (~/Projects/go).
 
-The other environment variable you will want to update is the PATH such that all your built binaries will be available to you. Whenever you build a go source file, the binary file goes into $GOPATH/bin. So, I add the following two lines to my .bashrc file:
+The other environment variable you will want to update is the PATH such that all your built binaries will be available to you. Whenever you build a go source file, the binary file goes into `$GOPATH/bin`. So, I add the following two lines to my .bashrc file:
 
 ```bash
 export GOPATH=/home/trent/Projects/go
@@ -47,15 +47,15 @@ Your GOPATH will then typically contain 3 folders:
 * pkg - any libraries/dependencies you compile will land in here. If
 * src - all your source files will land here. You will likely want to associate packages to your github profile, so will have the directory tree: github.com/tschf/projectName
 
-To test this out, we will set up the directory structure - then create a project named helloWorld:
+nb: the pkg and bin directories will automatically be created as needed.
+
+To test this out, we will set up the directory structure - then create a project named helloworld:
 
 ```bash
 $ cd $GOPATH
 $ mkdir -p src/github.com/tschf
 $ mkdir helloworld
 ```
-
-nb: the pkg and bin directories will automatically be created as needed.
 
 In there, we add the source file `main.go` with the following code:
 
@@ -70,6 +70,8 @@ func main(){
 ```
 
 Then to compile our application, from that same directory we can run `go install` or from anywhere on our filesystem, we can run `go install github.com/tschf/helloworld`. After that you will find the binary `helloworld` located in `$GOPATH/bin`.
+
+Or, at any time you can run a go source file without prior compilation by running the command `go run <file.go>`.
 
 More topics:
 
