@@ -73,6 +73,9 @@ Then to compile our application, from that same directory we can run `go install
 
 Or, at any time you can run a go source file without prior compilation by running the command `go run <file.go>`.
 
+
+Another package you will want to install is the `golang-go.tools` package. In particular, this includes the `godoc` utility that allows you to view the documentation for go packages, from the terminal. e.g. `godoc net/http`
+
 More topics:
 
 * Stay tuned
