@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Go variable basics
-date:   2015-09-18 11:41:00
+date:   2015-09-24 21:42:00
 ---
 
 To declare a variable in go, you start with the keyword `var` (or `const` if you want the variable to be a constant), follow it with the name of the variable and finally specify the data type. If you have a bunch of variables you know will have the same type, you can separate variable names with a comma, and specify the data type last.
