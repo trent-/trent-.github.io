@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Go functions and methods
-date:   2015-10-10 18:40:00
+date:   2015-10-10 18:40:00 +1200
 ---
 
 It's important to get the terminology right when talking about functions in go. The common terminology is method and/or function, but in Go these are distinguishable by how they behave. In go, a method interfaces off a variable of that type, where a function is free-standing so to speak. So in one form, you pass the variable in one of the paremeters and in the other you call the function off the variable (with the dot notation).
