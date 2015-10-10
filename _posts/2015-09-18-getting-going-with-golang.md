@@ -80,6 +80,7 @@ More topics:
 
 * [Go variable basics](/2015/09/24/go-variable-basics/)
 * [Go functions and methods](/2015/10/10/go-functions-methods)
+* [Go structs and interfaces](/2015/10/11/go-structs-interfaces)
 
 
 1. [https://golang.org/dl/](https://golang.org/dl/)
