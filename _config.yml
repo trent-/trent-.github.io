@@ -4,10 +4,11 @@ baseurl: ""
 date_format: "%Y-%m-%d"
 
 google_analytics: UA-65152338-2
-disqus_shortname: 
+disqus_shortname:
 
 # Build settings
 markdown:     redcarpet
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
+timezone: Australia/Sydney
