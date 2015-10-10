@@ -79,6 +79,7 @@ Another package you will want to install is the `golang-go.tools` package. In pa
 More topics:
 
 * [Go variable basics](/2015/09/24/go-variable-basics/)
+* [Go functions and methods](/2015/10/11/go-functions-methods)
 
 
 1. [https://golang.org/dl/](https://golang.org/dl/)
