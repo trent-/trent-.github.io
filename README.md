@@ -1,3 +1,3 @@
-# trent-.github.io
+# Trent's blog
 
-GitHub/Jekyll based blog of trent-.
+This repo represents my GitHub blog - running through Jekyll
