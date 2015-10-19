@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Go control structures
-date:   2015-10-19 14:56:00
+date:   2015-10-19 14:56:00 +1000
 ---
 
 Like any language, Go comes equipped with loops and conditional statements. The first key point to take note of is that Go does away with the enclosing parenthesis. The blocks are also wrapped in curly braces, but the opening brace must be on the same line as the initial statement. One other important aspect is the fact that other languages generally allow you to leave out the curly braces if the body is only one command. This is not the case in Go - the curly braces are mandatory - always.

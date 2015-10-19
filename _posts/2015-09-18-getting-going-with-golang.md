@@ -82,7 +82,7 @@ More topics:
 * [Go functions and methods](/2015/10/10/go-functions-methods)
 * [Go structs and interfaces](/2015/10/11/go-structs-interfaces)
 * [Go list structures](/2015/10/13/go-list-structures/)
-
+* [Go control structures](/2015/10/19/go-control-structures/)
 
 1. [https://golang.org/dl/](https://golang.org/dl/)
 *  [https://golang.org/doc/install](https://golang.org/doc/install)
