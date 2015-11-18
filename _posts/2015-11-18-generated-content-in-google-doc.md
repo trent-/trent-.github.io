@@ -56,7 +56,7 @@ function getTitle(startDate, offset){
 
   var months = [
     "January",
-    "Febuary",
+    "February",
     "March",
     "April",
     "May",
