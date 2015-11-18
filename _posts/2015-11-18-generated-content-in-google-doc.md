@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Generated content in a Google Document
-date:   2015-10-19 14:56:00 +1000
+date:   2015-11-19 21:57:00 +1000
 ---
 
 I was using a Google doc, and I wanted to be able generate 60 pages that were largely the same content (a few headings), the one difference being on each page the title would increment the day number as well as print the date, for a set time - a diary so to speak (so that I can log my lifestyle habits over a given period of time - food, excercise, leisure). Needless to say, that can be very tedious doing it page by page.
