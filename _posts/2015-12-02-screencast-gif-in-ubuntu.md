@@ -6,7 +6,7 @@ date:   2015-12-02 10:01:00 +1000
 
 I was working on a plugin for Atom - an Oracle PL/SQL autocompletion provider. And I was interested in creating a screencast gif as seems quite common on similar providers. Not quite sure where to begin, I recorded a video with `gtk-recordmydesktop`. The resulting file was 23.8MB.
 
-So, next I did a little research to find out how I can convert this video to an animated gif. Which led me to the following question on AskUbuntu - http://askubuntu.com/questions/107726/how-to-create-animated-gif-images-of-a-screencast. The first (accepted) answer involved firstly converting each from of the video to a jpeg file.
+So, next I did a little research to find out how I can convert this video to an animated gif. Which led me to the following question on AskUbuntu - [http://askubuntu.com/questions/107726/how-to-create-animated-gif-images-of-a-screencast](http://askubuntu.com/questions/107726/how-to-create-animated-gif-images-of-a-screencast). The first (accepted) answer involved firstly converting each from of the video to a jpeg file.
 
 ```
 mplayer -ao null <video file name> -vo jpeg:outdir=output
@@ -163,4 +163,4 @@ Or similarly, there is an example on the web about dropping every second from to
 Created with                        | File Size |  Image
 ------------------------------------|-----------|--------
 `byzanz-record`                     | 130KB     |  ![](https://cloud.githubusercontent.com/assets/1747643/11515330/8b3a1a42-98d1-11e5-8872-c9556bb498da.gif)
-`gtk-recordmydesktop` and `convert` | 487.9KB   |  ![](https://cloud.githubusercontent.com/assets/1747643/11517086/81c3b536-98db-11e5-98ae-3dac02bb6ae4.gif)
+`gtk-recordmydesktop`<br>and `convert` | 487.9KB   |  ![](https://cloud.githubusercontent.com/assets/1747643/11517086/81c3b536-98db-11e5-98ae-3dac02bb6ae4.gif)
